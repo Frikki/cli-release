@@ -1,3 +1,12 @@
+# v1.0.1 (2015-09-06)
+
+
+## Bug Fixes
+
+- **release.js:** change relative changelog path
+  ([f17b1608](https://github.com/Frikki/cli-release/commits/f17b1608a8776a28d0169f93de6457a3e8b37469))
+
+
 # v1.0.0 (2015-09-06)
 
 
