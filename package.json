@@ -1,0 +1,36 @@
+{
+  "name": "cli-release",
+  "version": "2.0.0",
+  "author": "Frederik Krautwald",
+  "description": "A CLI package release tool.",
+  "license": "MIT",
+  "bugs": "https://github.com/Frikki/cli-release/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Frikki/cli-release"
+  },
+  "keywords": [
+    "version",
+    "release",
+    "repository",
+    "git",
+    "commit",
+    "tool"
+  ],
+  "bin": {
+    "release": "./bin/release.js"
+  },
+  "dependencies": {
+    "cli-changelog": "^1.0.0",
+    "shelljs": "^0.5.3"
+  },
+  "devDependencies": {
+    "validate-commit-message": "^2.0.0"
+  },
+  "scripts": {
+    "patch": "node ./lib/release.js patch",
+    "minor": "node ./lib/release.js minor",
+    "major": "node ./lib/release.js major",
+    "init": "npm install && validate-commit-msg"
+  }
+}
