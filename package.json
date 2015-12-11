@@ -1,6 +1,6 @@
 {
   "name": "cli-release",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Frederik Krautwald",
   "description": "A CLI package release tool.",
   "license": "MIT",
