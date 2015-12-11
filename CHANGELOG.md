@@ -1,3 +1,16 @@
+# v1.0.4 (2015-12-11)
+
+
+## Bug Fixes
+
+- cannot find module error
+    ([eea8f8b6](https://github.com/Frikki/cli-release/commits/eea8f8b6e81ee73561f90e507c3b1d51794168ce),
+     [#1](https://github.com/Frikki/cli-release/issues/1))
+- add support for npm 3
+    ([8867d26b](https://github.com/Frikki/cli-release/commits/8867d26b820029646b0fe56df5c0abaf56b76be3),
+     [#1](https://github.com/Frikki/cli-release/issues/1))
+
+
 # v1.0.3 (2015-09-08)
 
 
