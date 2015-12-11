@@ -21,11 +21,11 @@
     "release": "./bin/release.js"
   },
   "dependencies": {
-    "cli-changelog": "^2.1.0",
-    "shelljs": "^0.5.3"
+    "cli-changelog": "2.1.0",
+    "shelljs": "0.5.3"
   },
   "devDependencies": {
-    "validate-commit-message": "^3.0.0"
+    "validate-commit-message": "3.0.1"
   },
   "scripts": {
     "patch": "node ./lib/release.js patch",
